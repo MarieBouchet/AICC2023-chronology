@@ -5,10 +5,7 @@ Created on Mon May 29 15:22:17 2023
 @author: mbouchet
 """
 
-import tkinter as tk
 import numpy as np
-import matplotlib.pyplot as mpl
-from matplotlib.backends.backend_pdf import PdfPages
 
 readarray=np.loadtxt('AICC2023_EDC.txt')
 depth_EDC=readarray[:,0]
